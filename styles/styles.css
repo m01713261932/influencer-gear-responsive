@@ -16,7 +16,7 @@ body {
 .navigation_bar {
     display: flex;
     justify-content: space-between;
-    padding-top: 90px;
+    padding-top: 85px;
     align-items: center;
 }
 
@@ -83,4 +83,15 @@ body {
     background-position: center;
     background-size: cover;
     padding: 10px 0px;
+}
+
+/* compnay logo  */
+
+.company_logo_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    padding: 70px 165px 0 165px;
+    
 }
