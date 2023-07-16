@@ -41,14 +41,14 @@ body {
 
 /* top section  */
 
-.top_section{
+.top_section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 50px;
 }
 
-.div_text{
+.div_text {
     text-align: left;
     width: 580px;
 }
@@ -77,7 +77,7 @@ body {
     border: none;
 }
 
-.top_image{
+.top_image {
     background-image: url(../images/Circle\ design.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -87,11 +87,80 @@ body {
 
 /* compnay logo  */
 
-.company_logo_div{
+.company_logo_div {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 60px;
-    padding: 70px 165px 0 165px;
-    
+    padding: 70px 165px 0px 165px;
+
+}
+
+
+
+/* responsive style  */
+@media screen and (max-width: 576px) {
+
+    .navigation_bar {
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .top_section {
+        flex-direction: column-reverse
+    }
+
+    .div_text {
+
+        width: 90%;
+        text-align: center;
+    }
+
+    .company_logo_div {
+        justify-content: space-evenly;
+        width: auto;
+        display: flex;
+        padding: 20px;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+}
+
+/* responsive medium device  */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+
+
+    .navigation_bar {
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 10px;
+    }
+
+    .top_section {
+        flex-direction: column-reverse
+    }
+
+    .div_text {
+
+        width: 90%;
+        text-align: center;
+    }
+
+    .company_logo_div {
+        justify-content: space-evenly;
+        width: auto;
+        display: flex;
+        padding: 20px;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+
 }
