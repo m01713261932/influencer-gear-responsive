@@ -204,6 +204,7 @@ body {
 
     .rating {
         display: inline-block;
+        text-align: left;
 
     }
 
